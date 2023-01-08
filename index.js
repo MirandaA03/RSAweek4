@@ -1,5 +1,5 @@
-function alert (one, two, three) {
-    console.log (" My name is " + one + " I am " + two + " and I live in the " + three);
+function myinfo(name, height, country) {
+    alert(name + height + country);
 }
 
-alert ("Miranda Allen", "5'5", "United States");
+myinfo("Miranda ", "5'5 ", "USA");
